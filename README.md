@@ -1,2 +1,2 @@
-# BlogToGameFramework
-Turn a blog into an interactive experience.
+# Blog To Game Framework
+Turns a blog into an interactive experience.
