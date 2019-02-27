@@ -18,8 +18,8 @@ public enum BlogType
 [System.Serializable]
 public class FilterableTriggers
 {
-    [Tooltip("Enter anything to search by to find the trigger")]
     public string key;
+    [Tooltip("Enter anything to search by to find the trigger")]
     public List<string> searchTerms;
     public Triggers trigger;
 }

@@ -64,4 +64,12 @@ MonoBehaviour:
       I've added something to change that.
     - Which I should honestly.
     triggers: 
+  - key: Hello again_1
+    sentences:
+    - We're just testing the waters here a bit.
+    triggers: 05000000
+  - key: Hello again_2
+    sentences:
+    - Yay!
+    triggers: 05000000
   paragraphsToReadFrom: []

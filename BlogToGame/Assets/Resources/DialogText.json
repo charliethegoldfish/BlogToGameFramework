@@ -1,2 +1,4 @@
 {"key":"Intro_1","sentences":["Hi!","This is just an example blog, to show you that it works!"],"triggers":[]}
 {"key":"Intro_2","sentences":["If all goes well, this text will appear in game, but probably out of order unless I've added something to change that.","Which I should honestly."],"triggers":[]}
+{"key":"Hello again_1","sentences":["We're just testing the waters here a bit."],"triggers":[5]}
+{"key":"Hello again_2","sentences":["Yay!"],"triggers":[5]}
