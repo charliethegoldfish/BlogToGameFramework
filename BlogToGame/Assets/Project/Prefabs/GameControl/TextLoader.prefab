@@ -56,6 +56,7 @@ MonoBehaviour:
   urlsToLoad:
   - https://blogtogame.tumblr.com/post/179812251635/intro
   - https://blogtogame.tumblr.com/post/182998087060/hello-again
+  - https://blogtogame.tumblr.com/post/183133916395/new-triggerfilter-test
   mainUrl: https://blogtogame.tumblr.com/
   triggersToFilter:
   - key: SelfHarm
