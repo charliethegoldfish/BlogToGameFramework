@@ -4,7 +4,9 @@ using System.Collections;
 public class FurnitureID : MonoBehaviour {
 
 	public FurnitureType furnitureType;
-	public GameObject[] theObjects;
+
+	
+	// public GameObject[] theObjects;
 	
 	// #if UNITY_STANDALONE || UNITY_EDITOR
 	// void OnMouseEnter()
@@ -23,10 +25,10 @@ public class FurnitureID : MonoBehaviour {
 	{
 		if(MenuController.instance.menu.activeSelf) return;
 
-		for(int i = 0; i < theObjects.Length; i++)
-		{
-			theObjects[i].layer = 9;
-		}
+		// for(int i = 0; i < theObjects.Length; i++)
+		// {
+		// 	theObjects[i].layer = 9;
+		// }
 		
 		CursorController.instance.changeToInterationCursor();
 	}
@@ -35,10 +37,10 @@ public class FurnitureID : MonoBehaviour {
 	{
 		if(MenuController.instance.menu.activeSelf) return;
 
-		for(int i = 0; i < theObjects.Length; i++)
-		{
-			theObjects[i].layer = 8;
-		}
+		// for(int i = 0; i < theObjects.Length; i++)
+		// {
+		// 	theObjects[i].layer = 8;
+		// }
 
 		CursorController.instance.changeToDefaultCursor();
 	}
